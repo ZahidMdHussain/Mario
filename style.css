@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,ul,li,h1,h2,a
+{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header
+{
+    margin:0px ;
+    text-align: center;
+    background-color:#f8cc1b;
+    border-bottom: 0.8px solid white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+header h1
+{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size:28px;
+    border: 3px solid white;
+    display: inline-block;
+    border-radius: 9%;
+}
+.banner
+{
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+}
+.banner img
+{
+max-width: 100%;
+}
+.banner .welcome
+{
+    position:absolute;
+    left: 5%;
+    top: 30%;
+    padding-top: 20px;;
+    color: white;
+}
+.banner h2
+{
+    font-size:75px;
+}
+.banner h2 span
+{
+    font-size:1.3em;
+}
+nav
+{
+    background-color:#f00d0d;;
+    height: 28px;
+    padding-top: 8px;
+    margin-top:-3px;
+    position: sticky;
+    top: 68px;
+}
+nav ul
+{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px;
+    list-style-type:none;
+}
+nav li
+{
+    width: 25%;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+nav li a
+{
+    display: block;
+    text-decoration: none;
+    color:white;
+}
+nav li a:hover
+{
+    color: #f7d542;
+}
+main
+{
+    max-width: 100%;
+    width: 1200px;
+    margin: 40px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+main article h2
+{
+    color: #c93737;
+    font-family:monospace;
+    font-size: 36px;
+    border-bottom: 2px solid red;
+    
+}
+main article p
+{
+    text-align:justify;
+    font-family:cursive;
+    line-height: 2em;
+    margin: 0px 80px;
+}
+.image
+{
+    text-align: center;
+    margin: 40px 0px;
+}
+.image li
+{
+    display: inline-block;
+    width: 40%;
+    margin: 0px 20px;
+    box-shadow: 1px 1px 6px 2px #302f2f;
+}
+.image li img
+{
+    max-width: 100%;
+}
+.join
+{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+    color: #4b4b4b;
+}
+.join h2
+{
+    font-size: 36px;
+} 
+.join p
+{
+    margin: 0px 100px;
+}
+form input
+{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+footer
+{
+    background: red;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+.copyright
+{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+.image li:hover
+{
+    position: relative;
+    top: -5px;
+}
+form input:focus
+{
+    border: 2px solid lightgray;
+    outline: none;
+}
+form input:valid
+{
+    border: 2px solid greenyellow;
+}
+main article p::first-letter
+{
+    font-weight: bolder;
+    font-size: 2em;
+}
+.join p::selection
+{
+    background-color: #c93737 ;
+    color: white;
+}
+main article p::selection
+{
+    background-color: #c93737 ;
+    color: white;
+}
+@media screen and (max-width: 1200px)
+{
+    .banner .welcome h2
+    {
+        font-size: 65px;
+    }   
+    main article p
+{
+    font-size:16px ;
+}
+nav ul
+{
+    max-width: 1000px;
+}
+nav li
+{
+    width: 25%;
+}
+}
+
+@media screen and (max-width: 900px)
+{
+    .banner .welcome h2
+    {
+        font-size: 50px;
+    }   
+    main article p
+{
+    font-size:12px ;
+}
+.join h2
+{
+    font-size: 26px;
+} 
+.join p
+{
+    font-size: 12px;
+}
+.copyright
+{
+    font-size: 13px;
+}
+form input
+{
+    font-size: 12px;
+}
+nav ul
+{
+    max-width: 700px;
+}
+nav li
+{
+    width: 25%;
+}
+}
+
+@media screen and (max-width: 650px)
+{
+    header h1
+{
+    font-size:16px;
+}   
+    .banner .welcome h2
+    {
+        font-size:38px;
+    }   
+    main article h2
+    {
+        font-size:30px;  
+    }
+    main article p
+{
+    font-size:10px ;
+}
+.join h2
+{
+    font-size: 23px;
+} 
+.join p
+{
+    font-size: 11px;
+}
+.copyright
+{
+    font-size: 11px;
+}
+form input
+{
+    font-size: 10px;
+}
+nav ul
+{
+    max-width: 520px;
+}
+nav li
+{
+    width: 25%;
+}
+nav li a
+{
+    font-size: 14px;
+}
+nav
+{
+    position: sticky;
+    top: 54px;
+}
+}
+@media screen and (max-width: 550px)
+{
+    nav ul
+{
+    max-width: 400px;
+}
+nav li a
+{
+    font-size: 11px;
+}
+.banner .welcome h2
+    {
+        font-size: 29px;
+    }  
+    main article h2
+    {
+        font-size: 22px;
+    }
+    .image li
+    {
+    display: block;
+    margin: 10px 30%;
+    }
+.image li img
+{
+    max-width: 100%;
+}
+.join h2
+{
+    font-size: 18px;
+} 
+.join p
+{
+    font-size: 9px;
+}
+.copyright
+{
+    font-size: 10px;
+}
+form input
+{
+    font-size: 8px;
+}
+main article p
+{
+    text-align:justify;
+    line-height: 1.7em;
+    margin: 0px 10%;
+}
+}
